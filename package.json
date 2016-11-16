@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp": 'gulp'
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,9 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-html-replace": "^1.6.1",
     "gulp-notify": "^2.2.0",
-    "gulp-ruby-sass": "^2.1.1"
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^2.3.2"
   }
 }
