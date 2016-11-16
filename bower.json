@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "description": "Portfolio Ricardo Salim",
+  "main": "index.js",
+  "authors": [
+    "Ricka <ricardosalim7@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rickaicka/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
