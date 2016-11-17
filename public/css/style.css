@@ -19,9 +19,12 @@
   font-weight: normal;
   font-style: normal; }
 
-.topo {
+.mainTopo {
   background-color: #9194a3;
   height: 100%; }
+
+.topo {
+  border-bottom: 1px solid #ffffff; }
 
 .container {
   margin-left: auto;
@@ -60,5 +63,10 @@
 
 .menu ul li a:hover {
   border-bottom-width: 4px;
-  border-bottom-color: red;
+  border-bottom-color: #A81E22;
   border-bottom-style: solid; }
+
+.banner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }

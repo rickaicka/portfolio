@@ -42,6 +42,8 @@
 
 $cinzaFundo: #9194a3;
 $branco: #ffffff;
+$vermelho: #A81E22;
+$cinzaFonte:#3A3A3A;
 $fontLight: 'novecento_sans_widelight';
 $fontNormal: 'novecento_sans_widenormal';
 $fontBold: 'novecento_sans_wide_bookbold';
@@ -51,9 +53,13 @@ $fontSizeDestaque: 36px;
 
 
     
-.topo{
+.mainTopo{
     background-color: $cinzaFundo;
     height: 100%;
+    
+}
+.topo{
+    border-bottom: 1px solid $branco;
 }
 .container{
     margin-left: auto; 
@@ -93,6 +99,11 @@ $fontSizeDestaque: 36px;
 }
 .menu ul li a:hover{
       border-bottom-width: 4px;
-    border-bottom-color: red;
+    border-bottom-color: $vermelho;
     border-bottom-style: solid;
+}
+.banner ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
