@@ -51,7 +51,7 @@ $fontBold: 'novecento_sans_wide_bookbold';
 $fontSizeRegular: 16px;
 $fontSizeMaior: 20px;
 $fontSizeDestaque: 36px;
-$fontTextoPadrao: '"Open Sans", "sans-serif"';
+$fontTextoPadrao: 'Raleway', sans-serif;
 
 h1,h2,h3,h4,h5,h6,span,p,i,a{
     color: $cinzaFonte;
@@ -132,9 +132,9 @@ h1,h2,h3,h4,h5,h6,span,p,i,a{
         color: $cinzaFonte;        
     }
     & p{
+        font-family: $fontTextoPadrao !important;
         text-align: justify;      
-        color: $cinzaClaroFonte;  
-        font-family: $fontTextoPadrao !important;   
+        color: $cinzaClaroFonte;
 
     }
     & h3{
