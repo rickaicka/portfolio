@@ -7,8 +7,8 @@ var gulp = require('gulp'),
     useMin = require('gulp-usemin');
 
 var paths = {
-    sassSrcPath: ['./public/sass/**/*.scss'],
-    sassDestPath: './public/css/'
+    sassSrcPath: ['./sass/**/*.scss'],
+    sassDestPath: './css/'
 };
 
 var autoprefixerOptions = {
@@ -23,7 +23,7 @@ gulp.task('sass', ['css'], function () {
 });
 
 gulp.task('css', function(){
-   return gulp.src('./public/**/*.html')
+   return gulp.src('./**/*.html')
     .pipe(htmlReplace({
        'css':'css/style.css'
    }));

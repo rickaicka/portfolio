@@ -56,17 +56,17 @@ $fontTextoPadrao: 'Raleway', sans-serif;
 h1,h2,h3,h4,h5,h6,span,p,i,a{
     color: $cinzaFonte;
 }
-    
+
 .mainTopo{
     background-color: $cinzaFundo;
     height: 100%;
-    
+
 }
 .topo{
     border-bottom: 1px solid $branco;
 }
 .container{
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
 }
 .logo{
@@ -100,14 +100,14 @@ h1,h2,h3,h4,h5,h6,span,p,i,a{
     font-size: $fontSizeMaior;
     border: 0 solid transparent;
     transition: 0.2s ease-out;
-    
+
 }
 .social ul li a {
     font-size: $fontSizeDestaque;
     color: $branco;
     transition: 0.5s ease-out;
     &:hover{
-       color: $vermelho 
+       color: $vermelho
     }
 }
 
@@ -126,20 +126,20 @@ h1,h2,h3,h4,h5,h6,span,p,i,a{
     margin-left:50px;
     text-align: center;
     margin-top: 160px;
-     
+
     & i{
         font-size: $fontSizeDestaque + 5px;
-        color: $cinzaFonte;        
+        color: $cinzaFonte;
     }
     & p{
         font-family: $fontTextoPadrao !important;
-        text-align: justify;      
+        text-align: justify;
         color: $cinzaClaroFonte;
 
     }
     & h3{
         font-size: $fontSizeDestaque + 10px;
         font-family: $fontBold;
-        color: $cinzaFonte;        
+        color: $cinzaFonte;
     }
 }
