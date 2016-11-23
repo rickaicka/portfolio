@@ -179,7 +179,9 @@ footer .rodape {
   padding: 0;
   box-sizing: border-box; }
   footer .rodape .logo {
-    float: left; }
+    float: left;
+    margin-right: 0;
+    margin-bottom: 115px; }
     footer .rodape .logo p {
       color: #ffffff;
       font-family: "Raleway", sans-serif;
@@ -196,3 +198,30 @@ footer .rodape {
       font-size: 16px;
       padding: 15px 10px 0px 10px;
       text-align: center; }
+  footer .rodape .contato {
+    background-image: url(../img/bg_contatos.jpg);
+    height: 370px;
+    background-repeat: no-repeat; }
+    footer .rodape .contato ul {
+      list-style: none;
+      margin-top: 30px; }
+      footer .rodape .contato ul li {
+        margin-bottom: 25px; }
+        footer .rodape .contato ul li p {
+          color: #ffffff;
+          font-family: "novecento_sans_wide_bookbold";
+          font-size: 36px;
+          padding-bottom: 15px;
+          border-bottom: 2px solid #5761c1;
+          width: 252px; }
+        footer .rodape .contato ul li h4 {
+          color: #ffffff;
+          font-family: "novecento_sans_wide_bookbold";
+          font-size: 20px; }
+        footer .rodape .contato ul li span, footer .rodape .contato ul li a {
+          color: #ffffff;
+          font-family: "Raleway", sans-serif;
+          font-size: 16px; }
+        footer .rodape .contato ul li i {
+          color: #ffffff;
+          font-size: 16px; }

@@ -244,6 +244,8 @@ footer{
         box-sizing: border-box;
         & .logo {
             float: left;
+            margin-right: 0;
+            margin-bottom: 115px;
             & p{
                 color: $branco;
                 font-family: $fontTextoPadrao;
@@ -262,6 +264,40 @@ footer{
                 font-size: $fontSizeRegular;
                 padding: 15px 10px 0px 10px;
                 text-align: center;
+            }
+        }
+        & .contato{
+            background-image: url(../img/bg_contatos.jpg);
+            height: 370px;
+            background-repeat: no-repeat;
+            & ul{
+                list-style: none;
+                margin-top: 30px;
+                & li{
+                    margin-bottom: 25px;
+                    & p{
+                        color: $branco;
+                        font-family: $fontBold;
+                        font-size: $fontSizeDestaque;
+                        padding-bottom: 15px;
+                        border-bottom: 2px solid $azul;
+                        width: 252px;
+                    }
+                    & h4{
+                        color: $branco;
+                        font-family: $fontBold;
+                        font-size: $fontSizeMaior;
+                    }
+                    & span, a{
+                        color: $branco;
+                        font-family: $fontTextoPadrao;
+                        font-size: $fontSizeRegular;
+                    }
+                    & i{
+                        color: $branco;
+                        font-size: $fontSizeRegular;
+                    }
+                }
             }
         }
     }
