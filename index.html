@@ -71,8 +71,12 @@
                 </div>
                  <ul id="isotopeContainer" isotope-container ng-cloak class="ng-cloak">
                     <li ng-repeat="x in xList" isotope-item class="kindling {{x.class}}" onClick="removeItem(this)">
-                       <div class="nomeServico">{{x.nome}}</div>
-                       <div class="tipoServico">{{x.tipo}}</div>
+                        <div class="nomeServico">
+                           <h3>{{x.nome}}</h3>
+                        </div>
+                        <div class="tipoServico">
+                           <span>{{x.tipo}}</span>
+                        </div>
                        <!--<div class="vejaMais">{{x.date | date}}</div>-->
                     </li>
                 </ul>
@@ -81,6 +85,27 @@
         </div>
     </main>
     <footer>
+        <div class="rodape pure-g">
+            <div class="container pure-u-3-4">
+                <div class="logo pure-u-1-4" >
+                    <a href="#/"><img src="img/logo_ricka_w.png"></a>
+                    <p>Entre em contato conosco para maiores informações sobre nossos serviços.</p>
+                </div>
+                <div class="copyright pure-u-1-4">
+                    <p>&copy; Todos os direitos reservados - 2016</p>
+                </div>
+                <div class="contato pure-u-1-2">
+                    <ul>
+                        <li><p>(11) 94340-1215</p></li>
+                        <li>
+                            <h4>Endereço</h4>
+                            <span>Rua Capitão Teófilo, 63 - Centro - Guarulhos/SP</span>
+                        </li>
+                        <li><a href="mailto:ricardosalim7@hotmail.com"><i class="fa fa-envelope"></i> ricardosalim7@hotmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <script src="vendor/jquery/dist/jquery.min.js"></script>        
         <script src="vendor/angular/angular.min.js" type="text/javascript"></script>
         <script src="vendor/angular-route/angular-route.min.js" type="text/javascript"></script>

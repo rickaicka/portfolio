@@ -39,7 +39,7 @@
 
 }
 
-$cinzaClaro: #d0d0d0;
+$cinzaClaro: #f3f3f3;
 $cinzaEscuro: #9194a3;
 $branco: #ffffff;
 $vermelho: #A81E22;
@@ -209,6 +209,60 @@ h1,h2,h3,h4,h5,h6,span,p,i,a{
             background-color: $cinzaClaro;
             margin-right: 15px;
             margin-top: 15px;
+            border: 10px solid $cinzaEscuro;
+            & .nomeServico {
+                margin-left: 0;
+                margin-top: 25px;
+                text-align: center;
+                height: 75px;
+                & h3{
+                    color: $corFontePadrao;
+                    font-size: $fontSizeMaior;
+                }
+            }
+            & .tipoServico {
+                margin-left: 0;
+                text-align: center;
+                margin-top: 50px;
+                & span{
+                    color: $azul;
+                    font-family: $fontTextoPadrao;
+                    font-size: $fontSizeRegular;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    & .rodape{
+        background-color: #3c3f52;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        & .logo {
+            float: left;
+            & p{
+                color: $branco;
+                font-family: $fontTextoPadrao;
+                font-size: $fontSizeRegular;
+                margin-left: 10px;
+                margin-top: 35px;
+            }
+        }
+        & .copyright{
+            background-color: $azul;
+            float: left;
+            clear: both;
+            & p{
+                color: $branco;
+                font-family: $fontTextoPadrao;
+                font-size: $fontSizeRegular;
+                padding: 15px 10px 0px 10px;
+                text-align: center;
+            }
         }
     }
 }
