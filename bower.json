@@ -17,6 +17,8 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "angular-route": "^1.5.8",
-    "angular-resource": "^1.5.8"
+    "angular-resource": "^1.5.8",
+    "angular-isotope": "^0.1.14",
+    "jquery": "^3.1.1"
   }
 }
