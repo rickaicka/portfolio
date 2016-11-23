@@ -40,12 +40,12 @@
 }
 
 $cinzaClaro: #d0d0d0;
-$cinzaFundo: #9194a3;
+$cinzaEscuro: #9194a3;
 $branco: #ffffff;
 $vermelho: #A81E22;
-$azul: #5a65d1;
-$cinzaFonte:#3A3A3A;
-$cinzaClaroFonte:#727480;
+$azul: #5761c1;
+$corFontePadrao:#3A3A3A;
+$corFonteClara:#727480;
 $fontLight: 'novecento_sans_widelight';
 $fontNormal: 'novecento_sans_widenormal';
 $fontBold: 'novecento_sans_wide_bookbold';
@@ -58,11 +58,11 @@ h1,h2,h3,h4,h5,h6{
     font-family: $fontBold;
 }
 h1,h2,h3,h4,h5,h6,span,p,i,a{
-    color: $cinzaFonte;
+    color: $corFontePadrao;
 }
 
 .mainTopo{
-    background-color: $cinzaFundo;
+    background-color: $cinzaEscuro;
     height: 100%;
 
 }
@@ -133,18 +133,18 @@ h1,h2,h3,h4,h5,h6,span,p,i,a{
 
     & i{
         font-size: $fontSizeDestaque + 5px;
-        color: $cinzaFonte;
+        color: $corFontePadrao;
     }
     & p{
         font-family: $fontTextoPadrao !important;
         text-align: justify;
-        color: $cinzaClaroFonte;
+        color: $corFonteClara;
 
     }
     & h3{
         font-size: $fontSizeDestaque + 10px;
         font-family: $fontBold;
-        color: $cinzaFonte;
+        color: $corFontePadrao;
     }
 }
 
