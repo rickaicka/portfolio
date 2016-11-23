@@ -43,6 +43,7 @@
 $cinzaFundo: #9194a3;
 $branco: #ffffff;
 $vermelho: #A81E22;
+$azul: #5a65d1;
 $cinzaFonte:#3A3A3A;
 $cinzaClaroFonte:#727480;
 $fontLight: 'novecento_sans_widelight';
@@ -53,6 +54,9 @@ $fontSizeMaior: 20px;
 $fontSizeDestaque: 36px;
 $fontTextoPadrao: 'Raleway', sans-serif;
 
+h1,h2,h3,h4,h5,h6{
+    font-family: $fontBold;
+}
 h1,h2,h3,h4,h5,h6,span,p,i,a{
     color: $cinzaFonte;
 }
@@ -102,12 +106,12 @@ h1,h2,h3,h4,h5,h6,span,p,i,a{
     transition: 0.2s ease-out;
 
 }
-.social ul li a {
+.social ul li a i{
     font-size: $fontSizeDestaque;
     color: $branco;
     transition: 0.5s ease-out;
     &:hover{
-       color: $vermelho
+       color: $vermelho;
     }
 }
 
@@ -141,5 +145,46 @@ h1,h2,h3,h4,h5,h6,span,p,i,a{
         font-size: $fontSizeDestaque + 10px;
         font-family: $fontBold;
         color: $cinzaFonte;
+    }
+}
+
+.servicos{
+    background-color: $azul;
+    & h3{
+        color: $branco;
+        display: inline-block;
+    }
+    & div{
+        margin-left: 50px; 
+        top: -5px;
+        & button{
+            border: none;
+            background: none;
+            box-shadow: none;
+            color: $branco;
+            font-family: $fontTextoPadrao;
+            &:hover{
+                border: none;
+                background: none;
+                box-shadow: none;
+                color: $branco;
+                font-family: $fontBold;
+            }
+            
+        }
+        & .active{
+            border: none;
+            background: none;
+            box-shadow: none;
+            color: $branco;
+            font-family: $fontBold;
+            &:hover{
+                border: none;
+                background: none;
+                box-shadow: none;
+                color: $branco;
+                font-family: $fontBold;
+            }
+        }
     }
 }

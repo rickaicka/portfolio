@@ -19,6 +19,7 @@
     "angular-route": "^1.5.8",
     "angular-resource": "^1.5.8",
     "angular-isotope": "^0.1.14",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
   }
 }

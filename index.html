@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap-theme.min.css">
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/grid-old-ie.css">
     <![endif]-->
@@ -60,17 +62,14 @@
         </div>
         <div class="servicos pure-g" ng-controller="ServicosController">
             <section class="container pure-u-3-4">
-                <!--<h4>Selector-Based Filter</h4>
+                <h3>Últimos serviços</h3>
                 <div class="btn-group" opt-kind ok-key="filter" >
-                  <button type='button' class='btn btn-default active' ok-sel="*">Show All</button>
-                  <button type='button' class='btn btn-default' ok-sel=".purple">Purple</button>
-                  <button type='button' class='btn btn-default' ok-sel=".orange">Orange</button>
-                  <button type='button' class='btn btn-default' ok-sel=".blue">Blue</button>
-                  <button type='button' class='btn btn-default' ok-sel=".green">Green</button>
-                  <button type='button' class='btn btn-default' ok-sel=":not(.blue)">Not Blue</button>
-                  <button type='button' class='btn btn-default' ok-sel="#extra">Extra Only</button>
+                  <button type='button' class='btn btn-default active' ok-sel="*">Mostrar todos</button>
+                  <button type='button' class='btn btn-default' ok-sel=".site">Site</button>
+                  <button type='button' class='btn btn-default' ok-sel=".sistema">Sistemas</button>
+                  <button type='button' class='btn btn-default' ok-sel=".wordpress">Sites em Wordpress</button>
                 </div>
-                <ul id="isotopeContainer" isotope-container ng-cloak class="ng-cloak">
+                 <!--<ul id="isotopeContainer" isotope-container ng-cloak class="ng-cloak">
                     <li ng-repeat="x in xList" isotope-item class="kindling {{x.class}}" onClick="removeItem(this)">
                        <div class="symbol">{{x.name}}</div>
                        <div class="weight" date="{{x.date}}">{{x.date | date}}</div>
