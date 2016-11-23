@@ -39,7 +39,7 @@
 
 }
 
-
+$cinzaClaro: #d0d0d0;
 $cinzaFundo: #9194a3;
 $branco: #ffffff;
 $vermelho: #A81E22;
@@ -170,7 +170,13 @@ h1,h2,h3,h4,h5,h6,span,p,i,a{
                 color: $branco;
                 font-family: $fontBold;
             }
-            
+            &:focus{
+                border: none;
+                background: none;
+                box-shadow: none;
+                color: $branco;
+                font-family: $fontBold;
+            }
         }
         & .active{
             border: none;
@@ -185,6 +191,24 @@ h1,h2,h3,h4,h5,h6,span,p,i,a{
                 color: $branco;
                 font-family: $fontBold;
             }
+            &:focus{
+                border: none;
+                background: none;
+                box-shadow: none;
+                color: $branco;
+                font-family: $fontBold;
+            }
+        }
+    }
+    & ul{
+        list-style: none;
+        & li{
+            display: inline-block;
+            width: 280px;
+            height: 250px;
+            background-color: $cinzaClaro;
+            margin-right: 15px;
+            margin-top: 15px;
         }
     }
 }
